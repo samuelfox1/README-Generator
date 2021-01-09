@@ -13,10 +13,10 @@ A handy tool to build a professional README file for any programming project.
 ## Features
 
 * Clean and professional layout
-* Streamlined user input for consistency
+* Streamlined user input
 * Useful for and programming project
 * Utilizes markdown sytiling capabilities
-* Anyone can use this tool!
+* Easy to edit
 
 <br>
 <br>
