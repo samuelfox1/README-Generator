@@ -15,6 +15,57 @@ inquirer.prompt([
         name: 'briefDescription',
     },
     {
+        type: 'list',
+        message: 'License:',
+        name: 'license',
+        choices: ['MIT', 'CCO 1.0', 'n/a']
+    },
+    {
+        type: 'input',
+        message: 'Installation Instruction 1 of 3:',
+        name: 'installationInstruction1',
+    },
+    {
+        type: 'input',
+        message: 'Installation Instruction 2 of 3:',
+        name: 'installationInstruction2',
+    },
+    {
+        type: 'input',
+        message: 'Installation Instruction 3 of 3:',
+        name: 'installationInstruction3',
+    },
+    {
+        type: 'input',
+        message: 'User Instruction 1 of 3:',
+        name: 'userInstruction1',
+    },
+    {
+        type: 'input',
+        message: 'User Instruction 2 of 3:',
+        name: 'userInstruction2',
+    },
+    {
+        type: 'input',
+        message: 'User Instruction 3 of 3:',
+        name: 'userInstruction3',
+    },
+    {
+        type: 'input',
+        message: 'How to Contribute:',
+        name: 'contributionGuidelines',
+    },
+    {
+        type: 'input',
+        message: 'Testing Instructions:',
+        name: 'testInstructions',
+    },
+    {
+        type: 'input',
+        message: 'Deployed URL:',
+        name: 'deployedURL',
+    },
+    {
         type: 'input',
         message: 'Your name: ',
         name: 'userName',
@@ -33,52 +84,7 @@ inquirer.prompt([
         type: 'input',
         message: 'Linkedin username: ',
         name: 'linkedinUsername',
-    },
-    {
-        type: 'input',
-        message: 'Describe feature 1 of 5.',
-        name: 'feature1',
-    },
-    {
-        type: 'input',
-        message: 'Describe feature 2 of 5.',
-        name: 'feature2',
-    },
-    {
-        type: 'input',
-        message: 'Describe feature 3 of 5.',
-        name: 'feature3',
-    },
-    {
-        type: 'input',
-        message: 'Describe feature 4 of 5.',
-        name: 'feature4',
-    },
-    {
-        type: 'input',
-        message: 'Describe feature 5 of 5.',
-        name: 'feature5',
-    },
-    {
-        type: 'input',
-        message: 'User Story - AS A(N):',
-        name: 'declareWho',
-    },
-    {
-        type: 'input',
-        message: 'I WANT:',
-        name: 'declareWant',
-    },
-    {
-        type: 'input',
-        message: 'SO THAT:',
-        name: 'declareWhy',
-    },
-    {
-        type: 'input',
-        message: 'Deployed URL:',
-        name: 'deployedURL',
-    },
+    }
 ])
     .then(function (response) {
                 

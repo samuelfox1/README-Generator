@@ -1,6 +1,4 @@
-function generateMarkdown(response) {
-
-const markdownTemplate = `# ${response.projectTitle}
+# ${response.projectTitle}
 
 ## Description 
 
@@ -64,9 +62,4 @@ const markdownTemplate = `# ${response.projectTitle}
 
 | Name | Email  | Github  | LinkedIn |
 | :--: | :----: | :-----: | :------: |
-| ${response.userName} | ${response.userEmail} | [![Github](./Assets/images/github.png)](https://github.com/${response.gitHubUsername}) | [![LinkedIn](./Assets/images/linkedin.png)](https://www.linkedin.com/in/${response.linkedinUsername}) |`
-
-    return markdownTemplate;
-}
-
-module.exports = generateMarkdown;
+| ${response.userName} | ${response.userEmail} | [![Github](./Assets/images/github.png)](https://github.com/${response.gitHubUsername}) | [![LinkedIn](./Assets/images/linkedin.png)](https://www.linkedin.com/in/${response.linkedinUsername}) |

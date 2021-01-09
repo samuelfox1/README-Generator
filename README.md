@@ -1,51 +1,69 @@
 # README Generator
-A handy tool to build a professional README file for any programming project.
+
+## Description 
+
+- Follow the promts in the terminal, enter the data to build a readme file for your project
 
 <br>
-<br>
 
-## About the author(s)
+![license](https://img.shields.io/badge/License-MIT-blue)
 
-| Name | Email  | Github  | LinkedIn |
-| :--: | :----: | :-----: | :------: |
-| Samuel Fox | samueljasonfox@gmail.com | [![Github](./Assets/images/github.png)](https://github.com/samuelfox1) | [![LinkedIn](./Assets/images/linkedin.png)](https://www.linkedin.com/in/samuel-fox-tacoma/) |
+## Table of Contents
 
-## Features
-
-* Clean and professional layout
-* Streamlined user input for consistency
-* Useful for and programming project
-* Utilizes markdown sytiling capabilities
-* Anyone can use this tool!
+- [Description](#Description)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [License](#License)
+- [Contributions](#Contributions)
+- [Testing](#Testing)
+- [Questions](#Questions)
 
 <br>
+
+## Installation
+
+- download the project folder
+- navigate to folder in terminal
+- run command 'npm init'
+
+
 <br>
 
-## User Story
+## Usage
 
-* AS A program developer
-* I WANT to add professional and resourceful README files to all of my products
-* SO THAT anyone (including myself) can visit the product and understand what it is and hos to use it.
+- run command 'node index.js
+- Enter the information requested
+- Enjoy your fancy README file
+
 
 <br>
+
+## Contributions
+
+- Feel free to fork the project or reach out via email with any [questions](#questions).
+
+<br>
+
+## Testing
+
+- n/a
+
 <br>
 
 ## Product
 
 [Live Site](https://github.com/samuelfox1/ReadME-Generator) 
 
-![Imgur](https://i.imgur.com/v0srAEC.gif)
+![Screenshot](Assets/images/screenshot.png)
 
 <br>
-<br>
 
-## Technologies
+## Questions
 
-![javascript](https://img.shields.io/badge/-javascript-yellow?logo=javascript)
+| Name | Email  | Github  | LinkedIn |
+| :--: | :----: | :-----: | :------: |
+| Samuel Fox | samueljasonfox@gmail.com | [![Github](./Assets/images/github.png)](https://github.com/samuelfox1) | [![LinkedIn](./Assets/images/linkedin.png)](https://www.linkedin.com/in/samuel-fox-tacoma) |
 
-<br>
 <br>
 
 ## License
-
-[CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
