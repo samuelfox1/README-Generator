@@ -32,6 +32,8 @@ A handy tool to build a professional README file for any programming project.
 
 ## Product
 
+[Live Site](https://github.com/samuelfox1/ReadME-Generator) 
+
 ![Imgur](https://i.imgur.com/v0srAEC.gif)
 
 <br>
