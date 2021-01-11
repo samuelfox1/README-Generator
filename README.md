@@ -3,7 +3,7 @@
 
 >## Description 
 
-* A simple tool to easily generate a professional README file for projects.
+* Easily generate professional README files for projects.
 * created 2021
 
 <br>
