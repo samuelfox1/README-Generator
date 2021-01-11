@@ -1,13 +1,12 @@
 const inquirer = require('inquirer')
 const fs = require('fs')
-const markdownTemplate = require('./assets/utils/markdownTemplate.js')
-
+const markdownTemplate = require('./assets/utils/markdownTemplate.js');
 
 inquirer.prompt([
     {
         type: 'input',
-        message: 'Project Title: ',
-        name: 'projectTitle',
+        message: 'Name of GitHub Repository :',
+        name: 'repoName',
     },
     {
         type: 'input',
@@ -70,14 +69,14 @@ inquirer.prompt([
         name: 'contributionGuidelines',
     },
     {
-        type: 'input',
-        message: 'Testing Instructions:',
-        name: 'testInstructions',
+        type: 'confirm',
+        message: 'Include Contributor Covenant Code of Conduct to "How to Contribute"?',
+        name: 'confirmConCov',
     },
     {
         type: 'input',
-        message: 'Name of GitHub Repository :',
-        name: 'repoName',
+        message: 'Testing Instructions:',
+        name: 'testInstructions',
     },
     {
         type: 'input',
@@ -112,10 +111,12 @@ inquirer.prompt([
     },
 ])
     .then(function (data) {
+
+        //if a user selects a license type from the list, include a Badge in the discription and add the License text to the License section in the markdown file
         var licenseData = ''
         if (data.license !== 'n/a'){
             let licenseName = data.license
-            data.license = `![license](https://img.shields.io/badge/License-${licenseName}-blue)`
+            data.license = `[![license](https://img.shields.io/badge/License-MIT-blue)](#License)`
             const licensePage = require(`./assets/licenses/${licenseName}License.js`) 
             licenseData = licensePage(data)
         }else{
@@ -123,7 +124,17 @@ inquirer.prompt([
             licenseData = `n/a`
         }
 
-        const userData = markdownTemplate(data, licenseData)
+        // include contributor covenant if user selects yes
+
+        var conCov = ''
+            if (data.confirmConCov){
+                data.confirmConCov = '[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](./assets/utils/CodeOfConduct.md)'
+                conCov = '* [Contributor Covenant Code of Conduct](./assets/utils/CodeOfConduct.md)'
+            }else{
+                data.confirmConCov = ''
+            }
+
+        const userData = markdownTemplate(data, licenseData, conCov)
 
         fs.writeFile('README.md', userData, function (error) {
             if (error) {

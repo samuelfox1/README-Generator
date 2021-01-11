@@ -1,7 +1,7 @@
-function generateMarkdown(data, licenseData) {
+function generateMarkdown(data,licenseData, conCov) {
 
 const markdownTemplate = `
-# ${data.projectTitle}
+# ${data.repoName}
 
 ## Description 
 
@@ -11,6 +11,8 @@ const markdownTemplate = `
 <br>
 
 ${data.license}
+<br>
+${data.confirmConCov}
 
 <br>
 
@@ -55,6 +57,7 @@ ${data.license}
 
 * [Submit bugs and feature requests](https://github.com/${data.gitHubUserName}/${data.repoName}/issues)
 * [Review changes](https://github.com/${data.gitHubUserName}/${data.repoName}/pulls)
+${conCov}
 
 <br>
 
@@ -83,6 +86,8 @@ ${data.license}
 ## License
 
 ${licenseData}
+
+## [Top of page](#${data.repoName})
 `
 
 return markdownTemplate;
