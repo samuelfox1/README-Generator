@@ -31,7 +31,7 @@
 * [Testing](#Testing)
 * [Usage](#Usage)
 * [Questions](#Questions)
-* [Story](#Story)
+* [User Story](#User Story)
 
 <br>
 
