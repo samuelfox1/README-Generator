@@ -6,15 +6,10 @@ const markdownTemplate = `
 >## Description 
 
 * ${data.briefDescription}
-* created ${data.year}
-
-<br>
-
->## Story
-
-* AS A: ${data.userStoryAsA}
-* I WANT: ${data.userStoryIWant}
-* SO THAT: ${data.userStorySoThat}
+* ### Story
+    * AS A: ${data.userStoryAsA}
+    * I WANT: ${data.userStoryIWant}
+    * SO THAT: ${data.userStorySoThat}
 
 <br>
 
@@ -88,14 +83,13 @@ ${conCov}
 <br>
 
 >## License
-
 ${licenseData}
-
 <br>
 
 The 'assets/images/logo/' are trademarks of their respective companies and are under their terms and license.
-
 <br>
+
+${data.year}
 <br>
 
 >## [Top of page](#${data.repoName})

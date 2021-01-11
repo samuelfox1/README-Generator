@@ -4,15 +4,11 @@
 >## Description 
 
 * Easily generate professional README files for projects.
-* created 2021
+* ### Story:
 
-<br>
-
->## Story
-
-* AS A: Software Developer,
-* I WANT: A tool to consistently build quality README files.
-* SO THAT: I can spend more time coding!
+    - AS A: Software Developer,
+    - I WANT: A tool to consistently build quality README files.
+    - SO THAT: I can spend more time coding!
 
 <br>
 
@@ -94,13 +90,14 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
 <br>
 
 The `assets/images/logo/` are trademarks of their respective companies and are under their terms and license.
-
-<br>
 <br>
 
->## [Top of page](#README-Generator)
+2021
+<br>
+
+## [Top of page](#README-Generator)
+
+
