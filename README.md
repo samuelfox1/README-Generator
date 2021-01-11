@@ -98,7 +98,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 <br>
 
-The 'assets/images/logo/' are trademarks of their respective companies and are under their terms and license.
+The `assets/images/logo/` are trademarks of their respective companies and are under their terms and license.
 
 <br>
 <br>
