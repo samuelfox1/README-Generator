@@ -1,6 +1,6 @@
 const inquirer = require('inquirer')
 const fs = require('fs')
-const generatemarkdown = require('./utils/markdownTemplate.js')
+const markdownTemplate = require('./utils/markdownTemplate.js')
 
 
 inquirer.prompt([
@@ -15,10 +15,24 @@ inquirer.prompt([
         name: 'briefDescription',
     },
     {
-        type: 'list',
-        message: 'License:',
-        name: 'license',
-        choices: ['MIT', 'CCO 1.0', 'n/a']
+        type: 'input',
+        message: 'Year Created: ',
+        name: 'year'
+    },
+    {
+        type:'input',
+        message:'User Story: "AS A:"',
+        name:'userStoryAsA',
+    },
+    {
+        type:'input',
+        message:'User Story: "I WANT:"',
+        name:'userStoryIWant',
+    },
+    {
+        type:'input',
+        message:'User Story: "SO THAT:"',
+        name:'userStorySoThat',
     },
     {
         type: 'input',
@@ -62,13 +76,18 @@ inquirer.prompt([
     },
     {
         type: 'input',
+        message: 'Name of GitHub Repository :',
+        name: 'repoName',
+    },
+    {
+        type: 'input',
         message: 'Deployed URL:',
         name: 'deployedURL',
     },
     {
         type: 'input',
-        message: 'Your name: ',
-        name: 'userName',
+        message: 'Your  full legal name: ',
+        name: 'legalName',
     },
     {
         type: 'input',
@@ -78,25 +97,42 @@ inquirer.prompt([
     {
         type: 'input',
         message: 'GitHub username: ',
-        name: 'gitHubUsername',
+        name: 'gitHubUserName',
     },
     {
         type: 'input',
         message: 'Linkedin username: ',
         name: 'linkedinUsername',
-    }
+    },
+    {
+        type: 'list',
+        message: 'License:',
+        name: 'license',
+        choices: ['MIT', 'CCO_1.0', 'n/a']
+    },
 ])
-    .then(function (response) {
-                
-        const markdownTemplate = generatemarkdown(response)
+    .then(function (data) {
+        var licenseData = ''
+        if (data.license !== 'n/a'){
+            let licenseName = data.license
+            data.license = `![license](https://img.shields.io/badge/License-${licenseName}-blue)`
+            const licensePage = require(`./utils/licenses/${licenseName}License.js`) 
+            licenseData = licensePage(data)
+        }else{
+            data.license = ''
+            licenseData = `n/a`
+        }
 
-        fs.writeFile('README.md', markdownTemplate, function (error) {
+        const userData = markdownTemplate(data, licenseData)
+
+        fs.writeFile('README.md', userData, function (error) {
             if (error) {
                 console.log(error)
             } else {
                 console.log('Success!')
             }
         })
+
     }).catch(function (error) {
         console.log(error)
 });

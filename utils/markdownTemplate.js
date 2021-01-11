@@ -1,60 +1,72 @@
-function generateMarkdown(response) {
+function generateMarkdown(data, licenseData) {
 
-const markdownTemplate = `# ${response.projectTitle}
+const markdownTemplate = `
+# ${data.projectTitle}
 
 ## Description 
 
-- ${response.briefDescription}
+* ${data.briefDescription}
+* created ${data.year}
 
 <br>
 
-![license](https://img.shields.io/badge/License-${response.license}-blue)
+${data.license}
+
+<br>
+
+## Story
+
+* AS A ${data.userStoryAsA}
+* I WANT ${data.userStoryIWant}
+* SO THAT ${data.userStorySoThat}
+
+<br>
 
 ## Table of Contents
 
-- [Description](#Description)
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [License](#License)
-- [Contributions](#Contributions)
-- [Testing](#Testing)
-- [Questions](#Questions)
+* [Contributing](#Contributing)
+* [Description](#Description)
+* [Installation](#Installation)
+* [License](#License)
+* [Testing](#Testing)
+* [Usage](#Usage)
+* [Questions](#Questions)
+* [Story](#Story)
 
 <br>
 
 ## Installation
 
-- ${response.installationInstruction1}
-- ${response.installationInstruction2}
-- ${response.installationInstruction3}
-
+* ${data.installationInstruction1}
+* ${data.installationInstruction2}
+* ${data.installationInstruction3}
 
 <br>
 
 ## Usage
 
-- ${response.userInstruction1}
-- ${response.userInstruction2}
-- ${response.userInstruction3}
-
+* ${data.userInstruction1}
+* ${data.userInstruction2}
+* ${data.userInstruction3}
 
 <br>
 
-## Contributions
+## Contributing
 
-- ${response.contributionGuidelines}
+* [Submit bugs and feature requests](https://github.com/${data.gitHubUserName}/${data.repoName}/issues)
+* [Review changes](https://github.com/${data.gitHubUserName}/${data.repoName}/pulls)
 
 <br>
 
 ## Testing
 
-- ${response.testInstructions}
+* ${data.testInstructions}
 
 <br>
 
 ## Product
 
-[Live Site](${response.deployedURL}) 
+[Check it out!](${data.deployedURL}) 
 
 ![Screenshot](Assets/images/screenshot.png)
 
@@ -64,9 +76,16 @@ const markdownTemplate = `# ${response.projectTitle}
 
 | Name | Email  | Github  | LinkedIn |
 | :--: | :----: | :-----: | :------: |
-| ${response.userName} | ${response.userEmail} | [![Github](./Assets/images/github.png)](https://github.com/${response.gitHubUsername}) | [![LinkedIn](./Assets/images/linkedin.png)](https://www.linkedin.com/in/${response.linkedinUsername}) |`
+| ${data.legalName} | ${data.userEmail} | [![Github](./Assets/images/github.png)](https://github.com/${data.gitHubUserName}) | [![LinkedIn](./Assets/images/linkedin.png)](https://www.linkedin.com/in/${data.linkedinUsername}) |
 
-    return markdownTemplate;
+<br>
+
+## License
+
+${licenseData}
+`
+
+return markdownTemplate;
 }
 
 module.exports = generateMarkdown;

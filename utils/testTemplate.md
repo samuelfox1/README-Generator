@@ -1,12 +1,12 @@
-# ${response.projectTitle}
+# ${data.projectTitle}
 
 ## Description 
 
-- ${response.briefDescription}
+- ${data.briefDescription}
 
 <br>
 
-![license](https://img.shields.io/badge/License-${response.license}-blue)
+![license](https://img.shields.io/badge/License-${data.license}-blue)
 
 ## Table of Contents
 
@@ -22,37 +22,37 @@
 
 ## Installation
 
-- ${response.installationInstruction1}
-- ${response.installationInstruction2}
-- ${response.installationInstruction3}
+- ${data.installationInstruction1}
+- ${data.installationInstruction2}
+- ${data.installationInstruction3}
 
 
 <br>
 
 ## Usage
 
-- ${response.userInstruction1}
-- ${response.userInstruction2}
-- ${response.userInstruction3}
+- ${data.userInstruction1}
+- ${data.userInstruction2}
+- ${data.userInstruction3}
 
 
 <br>
 
 ## Contributions
 
-- ${response.contributionGuidelines}
+- ${data.contributionGuidelines}
 
 <br>
 
 ## Testing
 
-- ${response.testInstructions}
+- ${data.testInstructions}
 
 <br>
 
 ## Product
 
-[Live Site](${response.deployedURL}) 
+[Live Site](${data.deployedURL}) 
 
 ![Screenshot](Assets/images/screenshot.png)
 
@@ -62,4 +62,4 @@
 
 | Name | Email  | Github  | LinkedIn |
 | :--: | :----: | :-----: | :------: |
-| ${response.userName} | ${response.userEmail} | [![Github](./Assets/images/github.png)](https://github.com/${response.gitHubUsername}) | [![LinkedIn](./Assets/images/linkedin.png)](https://www.linkedin.com/in/${response.linkedinUsername}) |
+| ${data.userName} | ${data.userEmail} | [![Github](./Assets/images/github.png)](https://github.com/${data.gitHubUsername}) | [![LinkedIn](./Assets/images/linkedin.png)](https://www.linkedin.com/in/${data.linkedinUsername}) |
