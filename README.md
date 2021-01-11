@@ -70,7 +70,7 @@
 
 * [Check it out!](https://github.com/samuelfox1/README-Generator) 
 
-![Screenshot](Assets/images/screenshot.png)
+![Screenshot](assets/images/screenshot.png)
 
 <br>
 
