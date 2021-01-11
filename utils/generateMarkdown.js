@@ -3,8 +3,8 @@
 
 function renderLicenseBadge(license) {
   var licenseType = ''
-  if(response.license !== 'n/a'){
-    licenseType = `![license](https://img.shields.io/badge/License-${response.license}-blue)`
+  if(data.license !== 'n/a'){
+    licenseType = `![license](https://img.shields.io/badge/License-${data.license}-blue)`
   }
 }
 

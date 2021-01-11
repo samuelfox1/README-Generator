@@ -1,7 +1,7 @@
-function generateLicense(response){
+function generateLicense(data){
 
 const licenseData = `
-${response.year} ${response.legalName}
+${data.year} ${data.legalName}
 
 CC0 1.0 Universal (CC0 1.0)
 Public Domain Dedication

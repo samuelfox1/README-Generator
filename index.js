@@ -111,19 +111,19 @@ inquirer.prompt([
         choices: ['MIT', 'CCO_1.0', 'n/a']
     },
 ])
-    .then(function (response) {
+    .then(function (data) {
         var licenseData = ''
-        if (response.license !== 'n/a'){
-            let licenseName = response.license
-            response.license = `![license](https://img.shields.io/badge/License-${licenseName}-blue)`
+        if (data.license !== 'n/a'){
+            let licenseName = data.license
+            data.license = `![license](https://img.shields.io/badge/License-${licenseName}-blue)`
             const licensePage = require(`./utils/licenses/${licenseName}License.js`) 
-            licenseData = licensePage(response)
+            licenseData = licensePage(data)
         }else{
-            response.license = ''
+            data.license = ''
             licenseData = `n/a`
         }
 
-        const userData = markdownTemplate(response, licenseData)
+        const userData = markdownTemplate(data, licenseData)
 
         fs.writeFile('README.md', userData, function (error) {
             if (error) {

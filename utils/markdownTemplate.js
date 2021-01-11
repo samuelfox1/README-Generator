@@ -1,24 +1,24 @@
-function generateMarkdown(response, licenseData) {
+function generateMarkdown(data, licenseData) {
 
 const markdownTemplate = `
-# ${projectTitle}
+# ${data.projectTitle}
 
 ## Description 
 
-* ${response.briefDescription}
-* _created ${response.year}_
+* ${data.briefDescription}
+* created ${data.year}
 
 <br>
 
-${response.license}
+${data.license}
 
 <br>
 
 ## Story
 
-* AS A ${response.userStoryAsA}
-* I WANT ${response.userStoryIWant}
-* SO THAT ${response.userStorySoThat}
+* AS A ${data.userStoryAsA}
+* I WANT ${data.userStoryIWant}
+* SO THAT ${data.userStorySoThat}
 
 <br>
 
@@ -37,36 +37,36 @@ ${response.license}
 
 ## Installation
 
-* ${response.installationInstruction1}
-* ${response.installationInstruction2}
-* ${response.installationInstruction3}
+* ${data.installationInstruction1}
+* ${data.installationInstruction2}
+* ${data.installationInstruction3}
 
 <br>
 
 ## Usage
 
-* ${response.userInstruction1}
-* ${response.userInstruction2}
-* ${response.userInstruction3}
+* ${data.userInstruction1}
+* ${data.userInstruction2}
+* ${data.userInstruction3}
 
 <br>
 
 ## Contributing
 
-* [Submit bugs and feature requests](https://github.com/${response.gitHubUserName}/${response.repoName}/issues)
-* [Review changes](https://github.com/${response.gitHubUserName}/${response.repoName}/pulls)
+* [Submit bugs and feature requests](https://github.com/${data.gitHubUserName}/${data.repoName}/issues)
+* [Review changes](https://github.com/${data.gitHubUserName}/${data.repoName}/pulls)
 
 <br>
 
 ## Testing
 
-* ${response.testInstructions}
+* ${data.testInstructions}
 
 <br>
 
 ## Product
 
-[Check it out!](${response.deployedURL}) 
+[Check it out!](${data.deployedURL}) 
 
 ![Screenshot](Assets/images/screenshot.png)
 
@@ -76,7 +76,7 @@ ${response.license}
 
 | Name | Email  | Github  | LinkedIn |
 | :--: | :----: | :-----: | :------: |
-| ${response.legalName} | ${response.userEmail} | [![Github](./Assets/images/github.png)](https://github.com/${response.gitHubUserName}) | [![LinkedIn](./Assets/images/linkedin.png)](https://www.linkedin.com/in/${response.linkedinUsername}) |
+| ${data.legalName} | ${data.userEmail} | [![Github](./Assets/images/github.png)](https://github.com/${data.gitHubUserName}) | [![LinkedIn](./Assets/images/linkedin.png)](https://www.linkedin.com/in/${data.linkedinUsername}) |
 
 <br>
 
