@@ -1,6 +1,6 @@
 const inquirer = require('inquirer')
 const fs = require('fs')
-const markdownTemplate = require('./utils/markdownTemplate.js')
+const markdownTemplate = require('./assets/utils/markdownTemplate.js')
 
 
 inquirer.prompt([
@@ -116,7 +116,7 @@ inquirer.prompt([
         if (data.license !== 'n/a'){
             let licenseName = data.license
             data.license = `![license](https://img.shields.io/badge/License-${licenseName}-blue)`
-            const licensePage = require(`./utils/licenses/${licenseName}License.js`) 
+            const licensePage = require(`./assets/licenses/${licenseName}License.js`) 
             licenseData = licensePage(data)
         }else{
             data.license = ''
