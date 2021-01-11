@@ -6,7 +6,7 @@ const markdownTemplate = `
 >## Description 
 
 * ${data.briefDescription}
-* ### Story
+* #### Story
     * AS A: ${data.userStoryAsA}
     * I WANT: ${data.userStoryIWant}
     * SO THAT: ${data.userStorySoThat}

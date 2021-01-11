@@ -4,7 +4,7 @@
 >## Description 
 
 * Easily generate professional README files for projects.
-* ### Story:
+* #### Story:
 
     - AS A: Software Developer,
     - I WANT: A tool to consistently build quality README files.
