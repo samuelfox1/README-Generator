@@ -8,7 +8,7 @@ const markdownTemplate = `# ${response.projectTitle}
 
 <br>
 
-![license](https://img.shields.io/badge/License-${response.license}-blue)
+${licenseType}
 
 ## Table of Contents
 
