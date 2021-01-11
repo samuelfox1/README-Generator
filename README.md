@@ -14,7 +14,7 @@
 
 <br>
 
->## Story
+>## User Story
 
 * AS A: Software Developer,
 * I WANT: A tool to consistently build quality README files.
@@ -31,7 +31,7 @@
 * [Testing](#Testing)
 * [Usage](#Usage)
 * [Questions](#Questions)
-* [User Story](#User Story)
+* [User Story](#User_Story)
 
 <br>
 
