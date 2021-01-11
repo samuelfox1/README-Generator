@@ -1,6 +1,6 @@
 # ${data.projectTitle}
 
-## Description 
+>## Description 
 
 - ${data.briefDescription}
 
@@ -8,7 +8,7 @@
 
 ![license](https://img.shields.io/badge/License-${data.license}-blue)
 
-## Table of Contents
+>## Table of Contents
 
 - [Description](#Description)
 - [Installation](#Installation)
@@ -20,7 +20,7 @@
 
 <br>
 
-## Installation
+>## Installation
 
 - ${data.installationInstruction1}
 - ${data.installationInstruction2}
@@ -29,7 +29,7 @@
 
 <br>
 
-## Usage
+>## Usage
 
 - ${data.userInstruction1}
 - ${data.userInstruction2}
@@ -38,19 +38,19 @@
 
 <br>
 
-## Contributions
+>## Contributions
 
-- ${data.contributionGuidelines}
+- ${data.contributionInfo}
 
 <br>
 
-## Testing
+>## Testing
 
 - ${data.testInstructions}
 
 <br>
 
-## Product
+>## Product
 
 [Live Site](${data.deployedURL}) 
 
@@ -58,7 +58,7 @@
 
 <br>
 
-## Questions
+>## Questions
 
 | Name | Email  | Github  | LinkedIn |
 | :--: | :----: | :-----: | :------: |
