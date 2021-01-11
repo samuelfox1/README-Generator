@@ -16,6 +16,12 @@ inquirer.prompt([
         choices: ['Press Enter to continue']
     },
     {
+        type: 'list',
+        message: 'SCREENSHOT should be titled "screenshot.png" and stored in ./assets/images/ ',
+        name: 'alertUser3',
+        choices: ['Press Enter to continue']
+    },
+    {
         type: 'input',
         message: 'Name of GitHub Repository :',
         name: 'repoName',
