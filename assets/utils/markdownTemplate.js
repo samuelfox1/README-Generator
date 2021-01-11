@@ -30,10 +30,10 @@ ${data.confirmConCov}
 * [Description](#Description)
 * [Installation](#Installation)
 * [License](#License)
-* [Testing](#Testing)
-* [Usage](#Usage)
 * [Questions](#Questions)
 * [Story](#Story)
+* [Testing](#Testing)
+* [Usage](#Usage)
 
 <br>
 
