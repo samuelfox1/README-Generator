@@ -10,12 +10,6 @@ const markdownTemplate = `
 
 <br>
 
-${data.license}
-<br>
-${data.confirmConCov}
-
-<br>
-
 >## Story
 
 * AS A: ${data.userStoryAsA}
@@ -34,6 +28,12 @@ ${data.confirmConCov}
 * [Story](#Story)
 * [Testing](#Testing)
 * [Usage](#Usage)
+<br>
+
+${data.license}
+<br>
+
+${data.confirmConCov}
 
 <br>
 

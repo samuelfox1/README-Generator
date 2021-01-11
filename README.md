@@ -8,12 +8,6 @@
 
 <br>
 
-[![license](https://img.shields.io/badge/License-MIT-blue)](#License)
-<br>
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](./assets/utils/CodeOfConduct.md)
-
-<br>
-
 >## Story
 
 * AS A: Software Developer,
@@ -32,6 +26,12 @@
 * [Story](#Story)
 * [Testing](#Testing)
 * [Usage](#Usage)
+<br>
+
+[![license](https://img.shields.io/badge/License-MIT-blue)](#License)
+<br>
+
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](./assets/utils/CodeOfConduct.md)
 
 <br>
 
