@@ -1,10 +1,6 @@
 function generateLicense(response){
 
 const licenseData = `
-<br>
-
-## License
-
 MIT License
 
 Copyright ${response.year} ${response.legalName}

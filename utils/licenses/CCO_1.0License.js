@@ -1,10 +1,6 @@
 function generateLicense(response){
 
 const licenseData = `
-<br>
-
-## License
-
 ${response.year} ${response.legalName}
 
 CC0 1.0 Universal (CC0 1.0)

@@ -16,6 +16,26 @@ inquirer.prompt([
     },
     {
         type: 'input',
+        message: 'Year Created: ',
+        name: 'year'
+    },
+    {
+        type:'input',
+        message:'User Story: "AS A:"',
+        name:'userStoryAsA',
+    },
+    {
+        type:'input',
+        message:'User Story: "I WANT:"',
+        name:'userStoryIWant',
+    },
+    {
+        type:'input',
+        message:'User Story: "SO THAT:"',
+        name:'userStorySoThat',
+    },
+    {
+        type: 'input',
         message: 'Installation Instruction 1 of 3:',
         name: 'installationInstruction1',
     },
@@ -56,6 +76,11 @@ inquirer.prompt([
     },
     {
         type: 'input',
+        message: 'Name of GitHub Repository :',
+        name: 'repoName',
+    },
+    {
+        type: 'input',
         message: 'Deployed URL:',
         name: 'deployedURL',
     },
@@ -72,7 +97,7 @@ inquirer.prompt([
     {
         type: 'input',
         message: 'GitHub username: ',
-        name: 'gitHubUsername',
+        name: 'gitHubUserName',
     },
     {
         type: 'input',
@@ -85,11 +110,6 @@ inquirer.prompt([
         name: 'license',
         choices: ['MIT', 'CCO_1.0', 'n/a']
     },
-    {
-        type: 'input',
-        message: 'Year Created: ',
-        name: 'year'
-    },
 ])
     .then(function (response) {
         var licenseData = ''
@@ -100,11 +120,12 @@ inquirer.prompt([
             licenseData = licensePage(response)
         }else{
             response.license = ''
+            licenseData = `n/a`
         }
 
         const userData = markdownTemplate(response, licenseData)
 
-        fs.writeFile('Test.md', userData, function (error) {
+        fs.writeFile('README.md', userData, function (error) {
             if (error) {
                 console.log(error)
             } else {

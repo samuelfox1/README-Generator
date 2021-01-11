@@ -1,7 +1,8 @@
 
 ## Description 
 
-- creates quality readme file for project
+- description
+- _created 2021_
 
 <br>
 
@@ -21,37 +22,37 @@
 
 ## Installation
 
-- download
-- unpack
-- install
+- 1
+- 2
+- 3
 
 
 <br>
 
 ## Usage
 
-- navigate to folder in terminal
-- run node index.js
-- follow promts
+- 1
+- 2
+- 3
 
 
 <br>
 
 ## Contributions
 
-- email
+- info
 
 <br>
 
 ## Testing
 
-- testing
+- info
 
 <br>
 
 ## Product
 
-[Live Site](url here) 
+[Live Site](url) 
 
 ![Screenshot](Assets/images/screenshot.png)
 
@@ -61,12 +62,14 @@
 
 | Name | Email  | Github  | LinkedIn |
 | :--: | :----: | :-----: | :------: |
-| Samuel Fox | samueljasonfox@gmail.com | [![Github](./Assets/images/github.png)](https://github.com/samuelfox1) | [![LinkedIn](./Assets/images/linkedin.png)](https://www.linkedin.com/in/samuel-fox-tacoma) |
+| Legal Name | email | [![Github](./Assets/images/github.png)](https://github.com/username) | [![LinkedIn](./Assets/images/linkedin.png)](https://www.linkedin.com/in/username) |
 
+<br>
 
 ## License
 
-2021 Samuel Fox
+
+2021 Legal Name
 
 CC0 1.0 Universal (CC0 1.0)
 Public Domain Dedication
