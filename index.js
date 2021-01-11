@@ -1,6 +1,6 @@
 const inquirer = require('inquirer')
 const fs = require('fs')
-const generatemarkdown = require('./utils/markdownTemplate.js')
+const markdownTemplate = require('./utils/markdownTemplate.js')
 
 
 inquirer.prompt([
@@ -13,12 +13,6 @@ inquirer.prompt([
         type: 'input',
         message: 'Brief description of the project: ',
         name: 'briefDescription',
-    },
-    {
-        type: 'list',
-        message: 'License:',
-        name: 'license',
-        choices: ['MIT', 'CCO 1.0', 'n/a']
     },
     {
         type: 'input',
@@ -67,8 +61,8 @@ inquirer.prompt([
     },
     {
         type: 'input',
-        message: 'Your name: ',
-        name: 'userName',
+        message: 'Your  full legal name: ',
+        name: 'legalName',
     },
     {
         type: 'input',
@@ -84,19 +78,40 @@ inquirer.prompt([
         type: 'input',
         message: 'Linkedin username: ',
         name: 'linkedinUsername',
-    }
+    },
+    {
+        type: 'list',
+        message: 'License:',
+        name: 'license',
+        choices: ['MIT', 'CCO_1.0', 'n/a']
+    },
+    {
+        type: 'input',
+        message: 'Year Created: ',
+        name: 'year'
+    },
 ])
     .then(function (response) {
-                
-        const markdownTemplate = generatemarkdown(response)
+        var licenseData = ''
+        if (response.license !== 'n/a'){
+            let licenseName = response.license
+            response.license = `![license](https://img.shields.io/badge/License-${licenseName}-blue)`
+            const licensePage = require(`./utils/licenses/${licenseName}License.js`) 
+            licenseData = licensePage(response)
+        }else{
+            response.license = ''
+        }
 
-        fs.writeFile('README.md', markdownTemplate, function (error) {
+        const userData = markdownTemplate(response, licenseData)
+
+        fs.writeFile('Test.md', userData, function (error) {
             if (error) {
                 console.log(error)
             } else {
                 console.log('Success!')
             }
         })
+
     }).catch(function (error) {
         console.log(error)
 });

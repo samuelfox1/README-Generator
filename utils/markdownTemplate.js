@@ -1,23 +1,22 @@
-function generateMarkdown(response) {
+function generateMarkdown(response, licenseData) {
 
-const markdownTemplate = `# ${response.projectTitle}
-
+const markdownTemplate = `
 ## Description 
 
 - ${response.briefDescription}
 
 <br>
 
-${licenseType}
+${response.license}
 
 ## Table of Contents
 
+- [Contributions](#Contributions)
 - [Description](#Description)
 - [Installation](#Installation)
-- [Usage](#Usage)
 - [License](#License)
-- [Contributions](#Contributions)
 - [Testing](#Testing)
+- [Usage](#Usage)
 - [Questions](#Questions)
 
 <br>
@@ -64,9 +63,12 @@ ${licenseType}
 
 | Name | Email  | Github  | LinkedIn |
 | :--: | :----: | :-----: | :------: |
-| ${response.userName} | ${response.userEmail} | [![Github](./Assets/images/github.png)](https://github.com/${response.gitHubUsername}) | [![LinkedIn](./Assets/images/linkedin.png)](https://www.linkedin.com/in/${response.linkedinUsername}) |`
+| ${response.legalName} | ${response.userEmail} | [![Github](./Assets/images/github.png)](https://github.com/${response.gitHubUsername}) | [![LinkedIn](./Assets/images/linkedin.png)](https://www.linkedin.com/in/${response.linkedinUsername}) |
 
-    return markdownTemplate;
+${licenseData}
+`
+
+return markdownTemplate;
 }
 
 module.exports = generateMarkdown;
