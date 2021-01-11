@@ -76,7 +76,7 @@ ${data.license}
 
 | Name | Email  | Github  | LinkedIn |
 | :--: | :----: | :-----: | :------: |
-| ${data.legalName} | ${data.userEmail} | [![Github](./Assets/images/github.png)](https://github.com/${data.gitHubUserName}) | [![LinkedIn](./Assets/images/linkedin.png)](https://www.linkedin.com/in/${data.linkedinUsername}) |
+| ${data.legalName} | ${data.userEmail} | [![Github](./assets/images/github.png)](https://github.com/${data.gitHubUserName}) | [![LinkedIn](./assets/images/linkedin.png)](https://www.linkedin.com/in/${data.linkedinUsername}) |
 
 <br>
 

@@ -62,4 +62,4 @@
 
 | Name | Email  | Github  | LinkedIn |
 | :--: | :----: | :-----: | :------: |
-| ${data.userName} | ${data.userEmail} | [![Github](./Assets/images/github.png)](https://github.com/${data.gitHubUsername}) | [![LinkedIn](./Assets/images/linkedin.png)](https://www.linkedin.com/in/${data.linkedinUsername}) |
+| ${data.userName} | ${data.userEmail} | [![Github](./assets/images/github.png)](https://github.com/${data.gitHubUsername}) | [![LinkedIn](./assets/images/linkedin.png)](https://www.linkedin.com/in/${data.linkedinUsername}) |

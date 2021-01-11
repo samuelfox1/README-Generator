@@ -1,10 +1,10 @@
 
-# Title
+# title
 
 ## Description 
 
 * description
-* _created 2021_
+* created YEAR
 
 <br>
 
@@ -16,7 +16,7 @@
 
 * AS A dev
 * I WANT tool
-* SO THAT README
+* SO THAT README files
 
 <br>
 
@@ -51,8 +51,8 @@
 
 ## Contributing
 
-* [Submit bugs and feature requests](https://github.com/githubUsername/repoName/issues)
-* [Review changes](https://github.com/githubUsername/repoName/pulls)
+* [Submit bugs and feature requests](https://github.com/gitusername/repo/issues)
+* [Review changes](https://github.com/gitusername/repo/pulls)
 
 <br>
 
@@ -64,7 +64,7 @@
 
 ## Product
 
-[Check it out!](URTLlink) 
+[Check it out!](url) 
 
 ![Screenshot](Assets/images/screenshot.png)
 
@@ -74,7 +74,7 @@
 
 | Name | Email  | Github  | LinkedIn |
 | :--: | :----: | :-----: | :------: |
-| Legal Name | email@email | [![Github](./Assets/images/github.png)](https://github.com/githubUsername) | [![LinkedIn](./Assets/images/linkedin.png)](https://www.linkedin.com/in/linkedinUsername) |
+| legal name | email | [![Github](./assets/images/github.png)](https://github.com/gitusername) | [![LinkedIn](./assets/images/linkedin.png)](https://www.linkedin.com/in/linkedinname) |
 
 <br>
 
@@ -83,7 +83,7 @@
 
 MIT License
 
-Copyright 2021 Legal Name
+Copyright YEAR legal name
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

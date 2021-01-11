@@ -62,7 +62,7 @@
 
 | Name | Email  | Github  | LinkedIn |
 | :--: | :----: | :-----: | :------: |
-| Samuel Fox | samueljasonfox@gmail.com | [![Github](./Assets/images/github.png)](https://github.com/samuelfox1) | [![LinkedIn](./Assets/images/linkedin.png)](https://www.linkedin.com/in/samuel-fox-tacoma) |
+| Samuel Fox | samueljasonfox@gmail.com | [![Github](./assets/images/github.png)](https://github.com/samuelfox1) | [![LinkedIn](./assets/images/linkedin.png)](https://www.linkedin.com/in/samuel-fox-tacoma) |
 
 <br>
 

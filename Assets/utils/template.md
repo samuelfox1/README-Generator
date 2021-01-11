@@ -7,7 +7,7 @@ ${briefDescription}
 
 | Name | Email  | Github  | LinkedIn |
 | :--: | :----: | :-----: | :------: |
-| ${userName} | ${userEmail} | [![Github](./Assets/images/github.png)](https://github.com/${gitHubUsername}) | [![LinkedIn](./Assets/images/linkedin.png)](https://www.linkedin.com/in/${linkedinUsername}/) |
+| ${userName} | ${userEmail} | [![Github](./assets/images/github.png)](https://github.com/${gitHubUsername}) | [![LinkedIn](./assets/images/linkedin.png)](https://www.linkedin.com/in/${linkedinUsername}/) |
 
 <br>
 <br>
