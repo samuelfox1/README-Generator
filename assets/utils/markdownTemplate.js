@@ -1,6 +1,6 @@
-function generateMarkdown(data,licenseData, conCov) {
+function generateMarkdown(data, licenseData, conCov) {
 
-const markdownTemplate = `
+    const markdownTemplate = `
 # ${data.repoName}
 
 >## Description 
@@ -29,6 +29,17 @@ ${data.license}
 <br>
 
 ${data.confirmConCov}
+<br>
+
+${data.technologies}
+
+
+
+>## Product
+
+* [Check it out!](${data.deployedURL}) 
+
+![Screenshot](Assets/images/screenshot.png)
 
 <br>
 
@@ -66,14 +77,6 @@ ${conCov}
 
 <br>
 
->## Product
-
-* [Check it out!](${data.deployedURL}) 
-
-![Screenshot](Assets/images/screenshot.png)
-
-<br>
-
 >## Questions
 
 | Name | Email  | Github  | LinkedIn |
@@ -95,7 +98,7 @@ ${data.year}
 >## [Top of page](#${data.repoName})
 `
 
-return markdownTemplate;
+    return markdownTemplate;
 }
 
 module.exports = generateMarkdown;
