@@ -34,6 +34,14 @@
 
 <br>
 
+>## Product
+
+* [Check it out!](https://github.com/samuelfox1/README-Generator) 
+
+![Screenshot](assets/images/screenshot.png)
+
+<br>
+
 >## Installation
 
 1. Install [node.js](https://nodejs.org/en/) on your machine.
@@ -65,13 +73,6 @@
 
 <br>
 
->## Product
-
-* [Check it out!](https://github.com/samuelfox1/README-Generator) 
-
-![Screenshot](assets/images/screenshot.png)
-
-<br>
 
 >## Questions
 
