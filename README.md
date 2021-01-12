@@ -36,7 +36,7 @@
 
 >## Product
 
-* [Check it out!](https://github.com/samuelfox1/README-Generator) 
+* [Demo Video](https://drive.google.com/file/d/1XSFz1OI4pA2E2AMigRoi5ScdPMk07Ms_/view?usp=sharing) 
 
 ![Screenshot](assets/images/screenshot.png)
 
