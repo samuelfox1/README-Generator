@@ -1,6 +1,7 @@
 const inquirer = require('inquirer')
 const fs = require('fs')
 const markdownTemplate = require('./assets/utils/markdownTemplate.js');
+const techSheet = require('./assets/utils/technologies.js')
 
 inquirer.prompt([
     {
@@ -35,6 +36,12 @@ inquirer.prompt([
         type: 'input',
         message: 'Year Created: ',
         name: 'year'
+    },
+    {
+        type: 'checkbox',
+        message: 'Select technologies used:',
+        name: 'technologies',
+        choices: ['html', 'css', 'javascript']
     },
     {
         type:'input',
@@ -150,27 +157,31 @@ inquirer.prompt([
 ])
     .then(function (data) {
 
-        //if a user selects a license type from the list, include a Badge in the discription and add the License text to the License section in the markdown file
+        //for technologies selected, replace the names with the markdown text for the badges
+        const badgeTypes = techSheet(data.technologies)
+        data.technologies = []
+        data.technologies = badgeTypes
+
+        // if a user selects a license type from the list, include a Badge in the discription and add the License text to the License section in the markdown file
         var licenseData = ''
-        if (data.license !== 'n/a'){
+        if (data.license !== 'n/a') {
             let licenseName = data.license
             data.license = `[![license](https://img.shields.io/badge/License-MIT-blue)](#License)`
-            const licensePage = require(`./assets/licenses/${licenseName}License.js`) 
+            const licensePage = require(`./assets/licenses/${licenseName}License.js`)
             licenseData = licensePage(data)
-        }else{
+        } else {
             data.license = ''
             licenseData = `n/a`
         }
 
         // include contributor covenant if user selects yes
-
         var conCov = ''
-            if (data.confirmConCov){
-                data.confirmConCov = '[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](./assets/utils/CodeOfConduct.md)'
-                conCov = '* [Contributor Covenant Code of Conduct](./assets/utils/CodeOfConduct.md)'
-            }else{
-                data.confirmConCov = ''
-            }
+        if (data.confirmConCov) {
+            data.confirmConCov = '[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](./assets/utils/CodeOfConduct.md)'
+            conCov = '* [Contributor Covenant Code of Conduct](./assets/utils/CodeOfConduct.md)'
+        } else {
+            data.confirmConCov = ''
+        }
 
         const userData = markdownTemplate(data, licenseData, conCov)
 
@@ -184,4 +195,4 @@ inquirer.prompt([
 
     }).catch(function (error) {
         console.log(error)
-});
+    });
