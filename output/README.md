@@ -1,13 +1,13 @@
 
-# team-profile-generator
+# 
 
 >## Description 
 
-* Easily build a professional contact sheet for all of your employees
+* 
 * #### Story
-    * AS A: team manager
-    * I WANT: a quality webpage to keep track of team members and basic information about them
-    * SO THAT: I can easily find information when needed
+    * AS A: 
+    * I WANT: 
+    * SO THAT: 
 
 <br>
 
@@ -29,13 +29,13 @@
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](./assets/utils/CodeOfConduct.md)
 <br>
 
-![html](https://img.shields.io/badge/-HTML5-blue?logo=html5)![css](https://img.shields.io/badge/-CSS-red?logo=css3)![javascript](https://img.shields.io/badge/-javascript-yellow?logo=javascript)
+![html](https://img.shields.io/badge/-HTML5-blue?logo=html5)![css](https://img.shields.io/badge/-CSS-red?logo=css3)![javascript](https://img.shields.io/badge/-javascript-yellow?logo=javascript)![node.js](https://img.shields.io/badge/-node.js-339933?logo=node.js&logoColor=white)
 
 
 
 >## Product
 
-* [Check it out!](https://samuelfox1.github.io/team-profile-generator/) 
+* [Check it out!]() 
 
 ![Screenshot](Assets/images/screenshot.png)
 
@@ -43,35 +43,35 @@
 
 >## Installation
 
-1. Install node.js on your computer.
-2. Download this project folder
-3. Navigate to project folder in Terminal.
-4. Run npm i to install the dependencies.
-5. Finished.
+1. 
+2. 
+3. 
+4. 
+5. 
 
 <br>
 
 >## Usage
 
-1. Run node app.js to launch the application.
-2. Start with entering manager information.
-3. At the home page, select 'Add employee'.
-4. Add employee information, repeat until all employees have been entered.
-5. If you'd like to see which employees have been entered, select 'View added employees'
+1. 
+2. 
+3. 
+4. 
+5. 
 
 <br>
 
 >## Contributing
 
-* [Submit bugs and feature requests](https://github.com/samuelfox1/team-profile-generator/issues)
-* [Review changes](https://github.com/samuelfox1/team-profile-generator/pulls)
+* [Submit bugs and feature requests](https://github.com///issues)
+* [Review changes](https://github.com///pulls)
 * [Contributor Covenant Code of Conduct](./assets/utils/CodeOfConduct.md)
 
 <br>
 
 >## Testing
 
-* In terminal, after running npm i to install dependencies, you may run 'npm run test' to review code tests
+* 
 
 <br>
 
@@ -79,28 +79,33 @@
 
 | Name | Email  | Github  | LinkedIn |
 | :--: | :----: | :-----: | :------: |
-| Samuel Fox | samueljasonfox@gmail.com | [![Github](./assets/images/logo/github.png)](https://github.com/samuelfox1) | [![LinkedIn](./assets/images/logo/linkedin.png)](https://www.linkedin.com/in/samuel-fox-tacoma) |
+|  |  | [![Github](./assets/images/logo/github.png)](https://github.com/) | [![LinkedIn](./assets/images/logo/linkedin.png)](https://www.linkedin.com/in/) |
 
 <br>
 
 >## License
 
-MIT License
+ 
 
-Copyright 2021 Samuel Fox
+CC0 1.0 Universal (CC0 1.0)
+Public Domain Dedication
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+This is a human-readable summary of the Legal Code [(read the full text here)](https://creativecommons.org/publicdomain/zero/1.0/legalcode).
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.
+
+- In no way are the patent or trademark rights of any person affected by CC0, nor are the rights that other persons may have in the work or in how the work is used, such as publicity or privacy rights.
+- Unless expressly stated otherwise, the person who associated a work with this deed makes no warranties about the work, and disclaims liability for all uses of the work, to the fullest extent permitted by applicable law.
+- When using or citing the work, you should not imply endorsement by the author or the affirmer.
 
 <br>
 
-The 'assets/images/logo/' are trademarks of their respective companies and are under their terms and license.
+The images found in 'assets/images/logo/' are trademarks of their respective companies and are under their terms and license.
 <br>
 
-2021
+
 <br>
 
->## [Top of page](#team-profile-generator)
+>## [Top of page](#)
