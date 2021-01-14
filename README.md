@@ -44,16 +44,17 @@
 
 >## Installation
 
-1. Install [node.js](https://nodejs.org/en/) on your machine.
+1. Install [node.js](https://nodejs.org/en/) on your computer.
 2. Download the [project folder](https://github.com/samuelfox1/README-Generator/archive/main.zip).
-3. Navigate to project folder in Terminal.
+3. Navigate to project folder in your terminal.
 4. Run `npm i` to install the dependencies.
+5. Finished!
 
 <br>
 
 >## Usage
 
-1. Run `node index.js` to lauch the application.
+1. Run `node index.js` to launch the application.
 2. Follow the prompts.
 3. Enjoy a high quality readme file!
 
