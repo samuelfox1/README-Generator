@@ -29,13 +29,13 @@
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](./assets/utils/CodeOfConduct.md)
 <br>
 
-![html](https://img.shields.io/badge/-HTML5-blue?logo=html5),![css](https://img.shields.io/badge/-CSS-red?logo=css3),![javascript](https://img.shields.io/badge/-javascript-yellow?logo=javascript)
+![html](https://img.shields.io/badge/-HTML5-blue?logo=html5)![css](https://img.shields.io/badge/-CSS-red?logo=css3)![javascript](https://img.shields.io/badge/-javascript-yellow?logo=javascript)![node.js](https://img.shields.io/badge/-node.js-339933?logo=node.js&logoColor=white)
 
 
 
 >## Product
 
-* [Check it out!](https://github.com/samuelfox1/README-Generator) 
+* [Demo Video](https://drive.google.com/file/d/1XSFz1OI4pA2E2AMigRoi5ScdPMk07Ms_/view?usp=sharing) 
 
 ![Screenshot](Assets/images/screenshot.png)
 
@@ -43,17 +43,20 @@
 
 >## Installation
 
-1. Install node.js on your machine.
-2. Download the project folder.
-3. Navigate to project folder in Terminal.
+
+1. Install [node.js](https://nodejs.org/en/) on your computer.
+2. Download [this](https://github.com/samuelfox1/README-Generator/archive/main.zip) project folder.
+3. Navigate to project folder in your terminal.
 4. Run `npm i` to install the dependencies.
+5. Finished!
 
 
 <br>
 
 >## Usage
 
-1. Run node index.js to lauch the application.
+=======
+1. Run `node index.js` to launch the application.
 2. Follow the prompts.
 3. Enjoy a high quality readme file!
 
@@ -96,7 +99,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 <br>
 
-The 'assets/images/logo/' are trademarks of their respective companies and are under their terms and license.
+The images found in `assets/images/logo/` are trademarks of their respective companies and are under their terms and license.
 <br>
 
 2021
