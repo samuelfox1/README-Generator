@@ -1,13 +1,13 @@
 
-# README-Generator
+# team-profile-generator
 
 >## Description 
 
-* Easily generate professional README files for projects.
+* Easily build a professional contact sheet for all of your employees
 * #### Story
-    * AS A: Software Developer,
-    * I WANT:  A tool to consistently build quality README files.
-    * SO THAT: I can spend more time coding!
+    * AS A: team manager
+    * I WANT: a quality webpage to keep track of team members and basic information about them
+    * SO THAT: I can easily find information when needed
 
 <br>
 
@@ -29,13 +29,13 @@
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](./assets/utils/CodeOfConduct.md)
 <br>
 
-![html](https://img.shields.io/badge/-HTML5-blue?logo=html5),![css](https://img.shields.io/badge/-CSS-red?logo=css3),![javascript](https://img.shields.io/badge/-javascript-yellow?logo=javascript)
+![html](https://img.shields.io/badge/-HTML5-blue?logo=html5)![css](https://img.shields.io/badge/-CSS-red?logo=css3)![javascript](https://img.shields.io/badge/-javascript-yellow?logo=javascript)
 
 
 
 >## Product
 
-* [Check it out!](https://github.com/samuelfox1/README-Generator) 
+* [Check it out!](https://samuelfox1.github.io/team-profile-generator/) 
 
 ![Screenshot](Assets/images/screenshot.png)
 
@@ -43,34 +43,35 @@
 
 >## Installation
 
-1. Install node.js on your machine.
-2. Download the project folder.
+1. Install node.js on your computer.
+2. Download this project folder
 3. Navigate to project folder in Terminal.
-4. Run `npm i` to install the dependencies.
-
+4. Run npm i to install the dependencies.
+5. Finished.
 
 <br>
 
 >## Usage
 
-1. Run node index.js to lauch the application.
-2. Follow the prompts.
-3. Enjoy a high quality readme file!
-
+1. Run node app.js to launch the application.
+2. Start with entering manager information.
+3. At the home page, select 'Add employee'.
+4. Add employee information, repeat until all employees have been entered.
+5. If you'd like to see which employees have been entered, select 'View added employees'
 
 <br>
 
 >## Contributing
 
-* [Submit bugs and feature requests](https://github.com/samuel-fox1/README-Generator/issues)
-* [Review changes](https://github.com/samuel-fox1/README-Generator/pulls)
+* [Submit bugs and feature requests](https://github.com/samuelfox1/team-profile-generator/issues)
+* [Review changes](https://github.com/samuelfox1/team-profile-generator/pulls)
 * [Contributor Covenant Code of Conduct](./assets/utils/CodeOfConduct.md)
 
 <br>
 
 >## Testing
 
-* 
+* In terminal, after running npm i to install dependencies, you may run 'npm run test' to review code tests
 
 <br>
 
@@ -78,7 +79,7 @@
 
 | Name | Email  | Github  | LinkedIn |
 | :--: | :----: | :-----: | :------: |
-| Samuel Fox | samueljasonfox@gmail.com | [![Github](./assets/images/logo/github.png)](https://github.com/samuel-fox1) | [![LinkedIn](./assets/images/logo/linkedin.png)](https://www.linkedin.com/in/samuel-fox-tacoma) |
+| Samuel Fox | samueljasonfox@gmail.com | [![Github](./assets/images/logo/github.png)](https://github.com/samuelfox1) | [![LinkedIn](./assets/images/logo/linkedin.png)](https://www.linkedin.com/in/samuel-fox-tacoma) |
 
 <br>
 
@@ -102,4 +103,4 @@ The 'assets/images/logo/' are trademarks of their respective companies and are u
 2021
 <br>
 
->## [Top of page](#README-Generator)
+>## [Top of page](#team-profile-generator)

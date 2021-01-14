@@ -12,6 +12,6 @@ function generateBadges(element) {
             badges.push('![javascript](https://img.shields.io/badge/-javascript-yellow?logo=javascript)')
         }
     })
-    return badges
+    return badges.join('')
 }
 module.exports = generateBadges
