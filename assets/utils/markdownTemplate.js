@@ -89,7 +89,7 @@ ${conCov}
 ${licenseData}
 <br>
 
-The 'assets/images/logo/' are trademarks of their respective companies and are under their terms and license.
+The images found in 'assets/images/logo/' are trademarks of their respective companies and are under their terms and license.
 <br>
 
 ${data.year}

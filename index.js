@@ -41,22 +41,22 @@ inquirer.prompt([
         type: 'checkbox',
         message: 'Select technologies used:',
         name: 'technologies',
-        choices: ['html', 'css', 'javascript']
+        choices: ['html', 'css', 'javascript', 'node.js']
     },
     {
-        type:'input',
-        message:'User Story: "AS A:"',
-        name:'userStoryAsA',
+        type: 'input',
+        message: 'User Story: "AS A:"',
+        name: 'userStoryAsA',
     },
     {
-        type:'input',
-        message:'User Story: "I WANT:"',
-        name:'userStoryIWant',
+        type: 'input',
+        message: 'User Story: "I WANT:"',
+        name: 'userStoryIWant',
     },
     {
-        type:'input',
-        message:'User Story: "SO THAT:"',
-        name:'userStorySoThat',
+        type: 'input',
+        message: 'User Story: "SO THAT:"',
+        name: 'userStorySoThat',
     },
     {
         type: 'input',
@@ -185,7 +185,7 @@ inquirer.prompt([
 
         const userData = markdownTemplate(data, licenseData, conCov)
 
-        fs.writeFile('README.md', userData, function (error) {
+        fs.writeFile('./output/README.md', userData, function (error) {
             if (error) {
                 console.log(error)
             } else {

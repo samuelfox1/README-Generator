@@ -11,7 +11,10 @@ function generateBadges(element) {
         if (element === 'javascript') {
             badges.push('![javascript](https://img.shields.io/badge/-javascript-yellow?logo=javascript)')
         }
+        if (element === 'node.js') {
+            badges.push('![node.js](https://img.shields.io/badge/-node.js-339933?logo=node.js&logoColor=white)')
+        }
     })
-    return badges
+    return badges.join('')
 }
 module.exports = generateBadges
