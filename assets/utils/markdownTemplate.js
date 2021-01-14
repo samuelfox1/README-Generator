@@ -39,7 +39,7 @@ ${data.technologies}
 
 * [Check it out!](${data.deployedURL}) 
 
-![Screenshot](Assets/images/screenshot.png)
+![Screenshot](./assets/images/screenshot.png)
 
 <br>
 
