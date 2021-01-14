@@ -45,7 +45,7 @@
 >## Installation
 
 1. Install [node.js](https://nodejs.org/en/) on your computer.
-2. Download the [project folder](https://github.com/samuelfox1/README-Generator/archive/main.zip).
+2. Download [this](https://github.com/samuelfox1/README-Generator/archive/main.zip) project folder.
 3. Navigate to project folder in your terminal.
 4. Run `npm i` to install the dependencies.
 5. Finished!
