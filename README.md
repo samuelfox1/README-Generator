@@ -37,7 +37,7 @@
 
 * [Demo Video](https://drive.google.com/file/d/1XSFz1OI4pA2E2AMigRoi5ScdPMk07Ms_/view?usp=sharing) 
 
-![Screenshot](Assets/images/screenshot.png)
+![Screenshot](./Assets/images/screenshot.png)
 
 <br>
 
