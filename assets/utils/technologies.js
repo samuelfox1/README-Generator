@@ -20,6 +20,15 @@ function generateBadges(element) {
         if (element === 'MySQL') {
             badges.push('![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=MySQL&logoColor=white)')
         }
+        if (element === 'handlebars.js') {
+            badges.push('![handlebars.js](https://img.shields.io/badge/-handlebars.js-FF7D00)')
+        }
+        if (element === 'Bootstrap') {
+            badges.push('![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?logo=Bootstrap&logoColor=white)')
+        }
+        if (element === 'MaterializeCSS') {
+            badges.push('![MaterializeCSS](https://img.shields.io/badge/-MaterializeCSS-FF7F7F?logo=Material%20Design&logoColor=white)')
+        }
     })
     return badges.join('')
 }
