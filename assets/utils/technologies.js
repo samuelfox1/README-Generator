@@ -17,6 +17,9 @@ function generateBadges(element) {
         if (element === 'ExpressJS') {
             badges.push('![node.js](https://img.shields.io/badge/-Express-000000?logo=JavaScript&logoColor=yellow)')
         }
+        if (element === 'MySQL') {
+            badges.push('![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=MySQL&logoColor=white)')
+        }
     })
     return badges.join('')
 }
