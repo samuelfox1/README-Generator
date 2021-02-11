@@ -55,7 +55,6 @@
 
 >## Usage
 
-=======
 1. Run `node index.js` to launch the application.
 2. Follow the prompts.
 3. Enjoy a high quality readme file!
@@ -67,7 +66,7 @@
 
 * [Submit bugs and feature requests](https://github.com/samuel-fox1/README-Generator/issues)
 * [Review changes](https://github.com/samuel-fox1/README-Generator/pulls)
-* [Contributor Covenant Code of Conduct](./assets/utils/CodeOfConduct.md)
+* [Contributor Covenant Code of Conduct](.public/assets/utils/CodeOfConduct.md)
 
 <br>
 

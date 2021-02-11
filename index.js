@@ -177,8 +177,8 @@ inquirer.prompt([
         // include contributor covenant if user selects yes
         var conCov = ''
         if (data.confirmConCov) {
-            data.confirmConCov = '[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](./assets/utils/CodeOfConduct.md)'
-            conCov = '* [Contributor Covenant Code of Conduct](./assets/utils/CodeOfConduct.md)'
+            data.confirmConCov = '[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](https://www.contributor-covenant.org/)'
+            conCov = '* [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/)'
         } else {
             data.confirmConCov = ''
         }
