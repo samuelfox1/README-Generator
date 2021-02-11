@@ -15,10 +15,7 @@ function generateBadges(element) {
             badges.push('![node.js](https://img.shields.io/badge/-node.js-339933?logo=node.js&logoColor=white)')
         }
         if (element === 'ExpressJS') {
-            badges.push('![node.js](https://img.shields.io/badge/-Express-000000?logo=JavaScript&logoColor=yellow)')
-        }
-        if (element === 'MySQL') {
-            badges.push('![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=MySQL&logoColor=white)')
+            badges.push('![ExpressJS](https://img.shields.io/badge/-Express-000000?logo=JavaScript&logoColor=yellow)')
         }
         if (element === 'handlebars.js') {
             badges.push('![handlebars.js](https://img.shields.io/badge/-handlebars.js-FF7D00)')
@@ -28,6 +25,12 @@ function generateBadges(element) {
         }
         if (element === 'MaterializeCSS') {
             badges.push('![MaterializeCSS](https://img.shields.io/badge/-MaterializeCSS-FF7F7F?logo=Material%20Design&logoColor=white)')
+        }
+        if (element === 'MySQL') {
+            badges.push('![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=MySQL&logoColor=white)')
+        }
+        if (element === 'MongoDB') {
+            badges.push('![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=MongoDB&logoColor=white)')
         }
     })
     return badges.join('')
