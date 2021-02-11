@@ -1,13 +1,13 @@
 
-# memoryBank
+# budget-tracker
 
 >## Description 
 
-* An app to pause and reflect on your daily horoscope and mental space. Save each day's reflection as a memory in your memory bank.
+* add expenses and deposits to their budget with or without a connection
 * #### Story
-    * AS A: User
-    * I WANT: a place to reflect on my day and record my thoughts
-    * SO THAT: i can be more mindful and have a collection of memories review
+    * AS A: avid traveller
+    * I WANT: to be able to track my withdrawals and deposits with or without a data/internet connection
+    * SO THAT: my account balance is accurate when I am traveling
 
 <br>
 
@@ -29,35 +29,49 @@
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](./assets/utils/CodeOfConduct.md)
 <br>
 
-![html](https://img.shields.io/badge/-HTML5-blue?logo=html5)![css](https://img.shields.io/badge/-CSS-red?logo=css3)![javascript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)![node.js](https://img.shields.io/badge/-node.js-339933?logo=node.js&logoColor=white)![node.js](https://img.shields.io/badge/-Express-000000?logo=JavaScript&logoColor=yellow)![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=MySQL&logoColor=white)![handlebars.js](https://img.shields.io/badge/-handlebars.js-FF7D00)![MaterializeCSS](https://img.shields.io/badge/-MaterializeCSS-FF7F7F?logo=Material%20Design&logoColor=white)
+![html](https://img.shields.io/badge/-HTML5-blue?logo=html5)![css](https://img.shields.io/badge/-CSS-red?logo=css3)![javascript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)![node.js](https://img.shields.io/badge/-node.js-339933?logo=node.js&logoColor=white)![ExpressJS](https://img.shields.io/badge/-Express-000000?logo=JavaScript&logoColor=yellow)![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?logo=Bootstrap&logoColor=white)![MongoDB](https://img.shields.io/badge/-MaterializeCSS-FF7F7F?logo=Material%20Design&logoColor=white)![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=MongoDB&logoColor=white)
 
 
 
 >## Product
 
-* [Check it out!](https://memorybank2021.herokuapp.com/) 
+* [Check it out!](https://dashboard.heroku.com/apps/sjf-budget-tracker-2021) 
 
 ![Screenshot](./assets/images/screenshot.png)
 
 <br>
 
+>## Installation
+
+1. Open in browser
+2. Add page to homescreen
+3. Open app and use with or without internet connection
+4. 
+5. 
+
+<br>
+
 >## Usage
 
-
-1. create an acount 
-2. login in
-3. review your horoscope and astrological information
-4. review past memories and mental spaces
-5. (coming soon) find and follow friends to see their memories that are selected to be 'public'
+1. Add debits and credits
+2. Follow the graph to track your finances
+3. 
+4. 
+5. 
 
 <br>
 
 >## Contributing
 
-* [Submit bugs and feature requests](https://github.com/samuelfox1/memoryBank/issues)
-* [Review changes](https://github.com/samuelfox1/memoryBank/pulls)
+* [Submit bugs and feature requests](https://github.com/samuelfox1/budget-tracker/issues)
+* [Review changes](https://github.com/samuelfox1/budget-tracker/pulls)
 * [Contributor Covenant Code of Conduct](./assets/utils/CodeOfConduct.md)
 
+<br>
+
+>## Testing
+
+* 
 
 <br>
 
@@ -65,10 +79,7 @@
 
 | Name | Email  | Github  | LinkedIn |
 | :--: | :----: | :-----: | :------: |
-| Andrew Anthony | [![Github](./assets/images/logo/github.png)](https://github.com/andrew1835) | 
-| Kevin Hsieh| [![Github](./assets/images/logo/github.png)](https://github.com/khsieh95) |  |
-| Mitchell Bean| [![Github](./assets/images/logo/github.png)](https://github.com/mitchlltbean) |
-| Samuel Fox | samueljasonfox@gmail.com | [![Github](./assets/images/logo/github.png)](https://github.com/samuelfox1) | [![LinkedIn](./assets/images/logo/linkedin.png)](https://www.linkedin.com/in/samuel-fox-tacoma) |
+| Samuel Fox | samueljasonfox@gmail.com | [![Github](./assets/images/logo/github.png)](https://github.com/samuelfox1) | [![LinkedIn](./assets/images/logo/linkedin.png)](https://www.linkedin.com/in/samuelfox-tacoma) |
 
 <br>
 
@@ -76,7 +87,7 @@
 
 MIT License
 
-Copyright 2021 Andrew Anthony, Kevin Hsieh, Mitchell Bean, Samuel Fox
+Copyright 2021 Samuel Fox
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -92,4 +103,4 @@ The images found in 'assets/images/logo/' are trademarks of their respective com
 2021
 <br>
 
->## [Top of page](#memoryBank)
+>## [Top of page](#budget-tracker)
