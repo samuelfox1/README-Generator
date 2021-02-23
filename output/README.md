@@ -29,7 +29,7 @@
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](https://www.contributor-covenant.org/)
 <br>
 
-
+![html](https://img.shields.io/badge/-HTML5-blue?logo=html5)![css](https://img.shields.io/badge/-CSS-red?logo=css3)![javascript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)![node.js](https://img.shields.io/badge/-node.js-339933?logo=node.js&logoColor=white)![ExpressJS](https://img.shields.io/badge/-Express-000000?logo=JavaScript&logoColor=yellow)![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=MySQL&logoColor=white)![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=MongoDB&logoColor=white)![handlebars.js](https://img.shields.io/badge/-handlebars.js-FF7D00)![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?logo=Bootstrap&logoColor=white)![MaterializeCSS](https://img.shields.io/badge/-MaterializeCSS-FF7F7F?logo=Material%20Design&logoColor=white)![ReactJS](https://img.shields.io/badge/-ReactJS-000000?logo=React&logoColor=61DAFB)![npm](https://img.shields.io/badge/-npm-CB3837?logo=NPM)
 
 
 

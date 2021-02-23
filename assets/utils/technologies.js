@@ -32,6 +32,12 @@ function generateBadges(element) {
         if (element === 'MongoDB') {
             badges.push('![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=MongoDB&logoColor=white)')
         }
+        if (element === 'ReactJS') {
+            badges.push('![ReactJS](https://img.shields.io/badge/-ReactJS-000000?logo=React&logoColor=61DAFB)')
+        }
+        if (element === 'npm') {
+            badges.push('![npm](https://img.shields.io/badge/-npm-CB3837?logo=NPM)')
+        }
     })
     return badges.join('')
 }
