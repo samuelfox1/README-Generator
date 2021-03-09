@@ -3,7 +3,7 @@
 
 >## Description 
 
-* Easily generate professional README files for projects.
+* A CLI to generate professional README files for my projects.
 * #### Story
     * AS A: Software Developer,
     * I WANT:  A tool to consistently build quality README files.
