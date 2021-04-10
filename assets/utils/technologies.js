@@ -38,6 +38,9 @@ function generateBadges(element) {
         if (element === 'npm') {
             badges.push('![npm](https://img.shields.io/badge/-npm-CB3837?logo=NPM)')
         }
+        if (element === 'jest') {
+            badges.push('![jest](https://img.shields.io/badge/-Jest-C21325?logo=jest)')
+        }
     })
     return badges.join('')
 }

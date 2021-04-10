@@ -41,7 +41,7 @@ inquirer.prompt([
         type: 'checkbox',
         message: 'Select technologies used:',
         name: 'technologies',
-        choices: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'ExpressJS', 'MySQL', 'MongoDB', 'handlebars.js', 'Bootstrap', 'MaterializeCSS', 'ReactJS', 'npm']
+        choices: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'ExpressJS', 'MySQL', 'MongoDB', 'handlebars.js', 'Bootstrap', 'MaterializeCSS', 'ReactJS', 'npm', 'jest']
     },
     {
         type: 'input',
