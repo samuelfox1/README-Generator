@@ -39,7 +39,7 @@ ${data.technologies}
 
 * [Check it out!](${data.deployedURL}) 
 
-![Screenshot](./public/assets/images/screenshot.png)
+![Screenshot](./assets/images/screenshot.png)
 
 <br>
 
@@ -81,7 +81,7 @@ ${conCov}
 
 | Name | Email  | Github  | LinkedIn |
 | :--: | :----: | :-----: | :------: |
-| ${data.legalName} | ${data.userEmail} | [![Github](./public/assets/images/logo/github.png)](https://github.com/${data.gitHubUserName}) | [![LinkedIn](./public/assets/images/logo/linkedin.png)](https://www.linkedin.com/in/${data.linkedinUsername}) |
+| ${data.legalName} | ${data.userEmail} | [![Github](./assets/images/logo/github.png)](https://github.com/${data.gitHubUserName}) | [![LinkedIn](./assets/images/logo/linkedin.png)](https://www.linkedin.com/in/${data.linkedinUsername}) |
 
 <br>
 

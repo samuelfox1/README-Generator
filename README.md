@@ -3,7 +3,7 @@
 
 >## Description 
 
-* A CLI to generate professional README files for my projects.
+* A CLI to generate professional README files for projects.
 * #### Story
     * AS A: Software Developer,
     * I WANT:  A tool to consistently build quality README files.
@@ -57,7 +57,8 @@
 
 1. Run `node index.js` to launch the application.
 2. Follow the prompts.
-3. Enjoy a high quality readme file!
+3. When finished, your new README.md file will 
+4. Enjoy your new readme file!
 
 
 <br>
@@ -66,7 +67,7 @@
 
 * [Submit bugs and feature requests](https://github.com/samuel-fox1/README-Generator/issues)
 * [Review changes](https://github.com/samuel-fox1/README-Generator/pulls)
-* [Contributor Covenant Code of Conduct](.public/assets/utils/CodeOfConduct.md)
+* [Contributor Covenant Code of Conduct](./assets/utils/CodeOfConduct.md)
 
 <br>
 

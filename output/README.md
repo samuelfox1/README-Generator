@@ -37,7 +37,7 @@
 
 * [Check it out!]() 
 
-![Screenshot](./public/assets/images/screenshot.png)
+![Screenshot](./assets/images/screenshot.png)
 
 <br>
 
@@ -79,7 +79,7 @@
 
 | Name | Email  | Github  | LinkedIn |
 | :--: | :----: | :-----: | :------: |
-|  |  | [![Github](./public/assets/images/logo/github.png)](https://github.com/) | [![LinkedIn](./public/assets/images/logo/linkedin.png)](https://www.linkedin.com/in/) |
+|  |  | [![Github](./assets/images/logo/github.png)](https://github.com/) | [![LinkedIn](./assets/images/logo/linkedin.png)](https://www.linkedin.com/in/) |
 
 <br>
 
