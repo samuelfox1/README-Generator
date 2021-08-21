@@ -1,6 +1,6 @@
 const enterToContinue = [`Press Enter to continue`]
 const licenses = ['MIT', 'CCO_1.0', 'n/a']
-const technologies = ['HTML5', 'CSS', 'JavaScript', 'Node.js', 'ExpressJS', 'MySQL', 'MongoDB', 'handlebars.js', 'Bootstrap', 'MaterializeCSS', 'ReactJS', 'npm', 'jest']
+const technologyChoices = ['HTML5', 'CSS', 'JavaScript', 'Node.js', 'ExpressJS', 'MySQL', 'MongoDB', 'handlebars.js', 'Bootstrap', 'MaterializeCSS', 'ReactJS', 'npm', 'jest']
 
 module.exports = questions = [{
     type: 'list',
@@ -38,8 +38,8 @@ module.exports = questions = [{
 {
     type: 'checkbox',
     message: 'Select technologies used:',
-    name: 'technologies',
-    choices: technologies
+    name: 'technologiesSelected',
+    choices: technologyChoices
 },
 {
     type: 'input',
@@ -75,26 +75,6 @@ module.exports = questions = [{
     type: 'input',
     message: 'Deployed URL:',
     name: 'deployedURL',
-},
-{
-    type: 'input',
-    message: 'Your full legal name:',
-    name: 'legalName',
-},
-{
-    type: 'input',
-    message: 'Your email:',
-    name: 'userEmail',
-},
-{
-    type: 'input',
-    message: 'GitHub username:',
-    name: 'gitHubUserName',
-},
-{
-    type: 'input',
-    message: 'Linkedin username:',
-    name: 'linkedinUsername',
 },
 {
     type: 'list',
