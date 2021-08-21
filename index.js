@@ -2,9 +2,7 @@ const inquirer = require('inquirer')
 const fs = require('fs')
 const questions = require('./utils/promptQuestions')
 const generateMarkdown = require('./utils/generateMarkdown')
-
-
-const { validateConfig, userData } = require('./utils/config/validateConfig')
+const { validateConfig } = require('./utils/config/validateConfig')
 
 const start = async () => {
     try {
