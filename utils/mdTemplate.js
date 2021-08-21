@@ -19,9 +19,12 @@ const mdTemplate = ({
 >## Description 
 
 * ${description}
->* AS A: ${userStoryAsA}
->* I WANT: ${userStoryIWant}
->* SO THAT: ${userStorySoThat}
+
+<br>
+
+* AS A: ${userStoryAsA}
+* I WANT: ${userStoryIWant}
+* SO THAT: ${userStorySoThat}
 
 <br>
 
@@ -33,9 +36,7 @@ const mdTemplate = ({
 * [Questions](#questions)
 * [Testing](#testing)
 * [License](#license)
-<br>
 
-${license}
 <br>
 
 ${formattedShields}
@@ -97,13 +98,7 @@ ${formattedShields}
 ${licenseData}
 <br>
 
-The images found in 'assets/images/logo/' are trademarks of their respective companies and are under their terms and license.
-<br>
-
-${year}
-<br>
-
->## [Top of page](#${repoName})`
+## [Top of page](#${repoName})`
 )
 
 
