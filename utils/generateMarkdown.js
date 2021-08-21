@@ -1,18 +1,6 @@
 const mdTemplate = require('./mdTemplate')
+const licenses = require('./licenses')
 
-const generateMarkdown = (data) => {
-  console.log(data)
-  // append formatted shields strings to data object
-  // const formattedShields = getFormattedShields(data)
-  // data.formattedShields = formattedShields
-  data.formattedShields = getFormattedShields(data)
-  // append license string to data object
-  // const licenseData = getLicense()
-  // data.licenseData = licenseData
-  data.licenseData = getLicense()
-
-  return mdTemplate(data);
-};
 
 const getFormattedShields = (data) => {
   const { languages, clientSideTech, serverSideTech, otherTech } = data
@@ -25,6 +13,16 @@ const getFormattedShields = (data) => {
   return allTechSelected.join(' ')
 };
 
-const getLicense = () => 'licenseData here';
+const getLicense = ({ license, year }) => {
+  const licenseFunction = licenses[license.toLowerCase()]
+  return licenseFunction(year)
+};
+
+const generateMarkdown = (data) => {
+  data.formattedShields = getFormattedShields(data)
+  data.licenseData = getLicense(data)
+
+  return mdTemplate(data);
+};
 
 module.exports = generateMarkdown;
