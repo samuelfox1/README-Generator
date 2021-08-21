@@ -57,7 +57,7 @@
 
 1. Run `node index.js` to launch the application.
 2. Follow the prompts.
-3. When finished, your new README.md file will 
+3. When finished, your new README.md file will create in the output folder
 4. Enjoy your new readme file!
 
 
