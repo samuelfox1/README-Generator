@@ -7,7 +7,8 @@ const jest = 'jest'
 const otherTech = [
     { name: nodeJs, value: `![${nodeJs}](${urlBase}/-${nodeJs}-339933?logo=${nodeJs}&logoColor=white)` },
     { name: npm, value: `![${npm}](${urlBase}/-${npm}-CB3837?logo=${npm})` },
-    { name: jest, value: `![${jest}](${urlBase}/-${jest}-C21325?logo=${jest})` }
+    { name: jest, value: `![${jest}](${urlBase}/-${jest}-C21325?logo=${jest})` },
+    { name: 'n/a', value: '' }
 ]
 
 module.exports = otherTech
