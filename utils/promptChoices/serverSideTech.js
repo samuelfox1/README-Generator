@@ -9,7 +9,8 @@ const serverSideTech = [
     { name: expressJS, value: `![${expressJS}](${urlBase}/-${expressJS}-000000?logo=javascript&logoColor=yellow)` },
     { name: handlebarsJs, value: `![${handlebarsJs}](${urlBase}/-${handlebarsJs}-FF7D00)` },
     { name: mysql, value: `![${mysql}](${urlBase}/-${mysql}-4479A1?logo=${mysql}&logoColor=white)` },
-    { name: mongoDb, value: `![${mongoDb}](${urlBase}/-${mongoDb}-47A248?logo=${mongoDb}&logoColor=white)` }
+    { name: mongoDb, value: `![${mongoDb}](${urlBase}/-${mongoDb}-47A248?logo=${mongoDb}&logoColor=white)` },
+    { name: 'n/a', value: '' }
 ]
 
 module.exports = serverSideTech
