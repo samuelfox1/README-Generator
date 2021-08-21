@@ -1,10 +1,17 @@
-function generateMarkdown(data, licenseData, conCov) {
+require('dotenv').config()
+const { NAME, EMAIL, GITHUB_USERNAME, LINKEDIN_USERNAME } = process.env
+
+const getNAME = () => NAME
+const getEMAIL = () => EMAIL
+const getGITHUB_USERNAME = () => GITHUB_USERNAME
+const getLINKEDIN_USERNAME = () => LINKEDIN_USERNAME
+
+function generateMarkdown(data, licenseData, ContCovLink) {
 
     const { repoName, briefDescription, userStoryAsA,
         userStoryIWant, userStorySoThat, license,
         confirmConCov, technologies, deployedURL,
-        gitHubUserName, testInstructions, legalName,
-        userEmail, linkedinUsername, year
+        testInstructions, year
     } = data
 
     return `# ${repoName}
@@ -71,9 +78,9 @@ ${technologies}
 
 >## Contributing
 
-* [Submit bugs and feature requests](https://github.com/${gitHubUserName}/${repoName}/issues)
-* [Review changes](https://github.com/${gitHubUserName}/${repoName}/pulls)
-${conCov}
+* [Submit bugs and feature requests](https://github.com/${getGITHUB_USERNAME()}/${repoName}/issues)
+* [Review changes](https://github.com/${getGITHUB_USERNAME()}/${repoName}/pulls)
+${ContCovLink}
 
 <br>
 
@@ -87,7 +94,7 @@ ${conCov}
 
 | Name | Email  | Github  | LinkedIn |
 | :--: | :----: | :-----: | :------: |
-| ${legalName} | ${userEmail} | [![Github](./assets/images/logo/github.png)](https://github.com/${gitHubUserName}) | [![LinkedIn](./assets/images/logo/linkedin.png)](https://www.linkedin.com/in/${linkedinUsername}) |
+| ${getNAME()} | ${getEMAIL()} | [![Github](./assets/images/logo/github.png)](https://github.com/${getGITHUB_USERNAME()}) | [![LinkedIn](./assets/images/logo/linkedin.png)](https://www.linkedin.com/in/${getLINKEDIN_USERNAME()}) |
 
 <br>
 
