@@ -5,26 +5,20 @@ const {
     otherTech
 } = require('./promptChoices/index')
 
-const enterToContinue = [`Press Enter to continue`]
+const enterToContinue = [`ok`]
 const licenses = ['MIT', 'none']
 
 module.exports = questions = [
     {
-        type: 'list',
-        message: 'DO NOT USE BACK-TICKS IN ANY ENTRIES',
+        type: 'checkbox',
+        message: 'Welcome to README-Generator!',
+        name: 'alertUser0',
+        choices: enterToContinue
+    },
+    {
+        type: 'checkbox',
+        message: 'Lets collect some information about your project',
         name: 'alertUser1',
-        choices: enterToContinue
-    },
-    {
-        type: 'list',
-        message: 'GITHUB REPO NAME AND USER NAME ARE CASE SENSITIVE, INCORRECT ENTRIES WILL BREAK LINKS',
-        name: 'alertUser2',
-        choices: enterToContinue
-    },
-    {
-        type: 'list',
-        message: 'SCREENSHOT should be titled "screenshot.png" and stored in ./assets/images/ ',
-        name: 'alertUser3',
         choices: enterToContinue
     },
     {

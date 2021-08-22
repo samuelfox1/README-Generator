@@ -5,6 +5,7 @@ const generateMarkdown = require('./utils/generateMarkdown')
 const { validateConfig } = require('./utils/config/validateConfig')
 
 const start = async () => {
+    console.clear()
     try {
         const answers = await inquirer.prompt(questions)
         const markDown = generateMarkdown(answers)
@@ -16,7 +17,10 @@ const start = async () => {
 }
 const writeToFile = (userData) => {
     const filePath = './output/README.md'
-    fs.writeFile(filePath, userData, (error) => error ? console.log(error) : console.log('Success!'))
+    fs.writeFile(filePath, userData, (error) => {
+        if (error) throw error
+        console.log(`\nSuccess!\nFind your new README here: ${filePath}\n`)
+    })
 }
 
 validateConfig() && start()

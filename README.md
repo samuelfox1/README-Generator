@@ -1,48 +1,39 @@
+# readme-generator
 
-# README-Generator
+## Description 
 
->## Description 
-
-* A CLI to generate professional README files for projects.
-* #### Story
-    * AS A: Software Developer,
-    * I WANT:  A tool to consistently build quality README files.
-    * SO THAT: I can spend more time coding!
+* input information about your project to build a quick README file
 
 <br>
 
->## Table of Contents
+* AS A: developer
+* I WANT: to spend less time creating README files
+* SO THAT: I can spend more time creating PROJECTS!
 
-* [Contributing](#Contributing)
-* [Description](#Description)
-* [Installation](#Installation)
-* [License](#License)
-* [Questions](#Questions)
-* [Story](#Story)
-* [Testing](#Testing)
-* [Usage](#Usage)
 <br>
 
-[![license](https://img.shields.io/badge/License-MIT-blue)](#License)
+## Table of Contents
+
+* [Installation](#installation)
+* [How to Use](#how-to-use)
+* [Contributing](#contributing)
+* [Questions](#questions)
+* [Testing](#testing)
+* [License](#license)
+
 <br>
 
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](./assets/utils/CodeOfConduct.md)
-<br>
+![node.js](https://img.shields.io/badge/-node.js-339933?logo=node.js&logoColor=white) ![npm](https://img.shields.io/badge/-npm-CB3837?logo=npm)
 
-![html](https://img.shields.io/badge/-HTML5-blue?logo=html5)![css](https://img.shields.io/badge/-CSS-red?logo=css3)![javascript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)![node.js](https://img.shields.io/badge/-node.js-339933?logo=node.js&logoColor=white)
+## Product
 
-
-
->## Product
-
-* [Demo Video](https://drive.google.com/file/d/1XSFz1OI4pA2E2AMigRoi5ScdPMk07Ms_/view?usp=sharing) 
+* [Check it out!](https://github.com/samuelfox1/readme-Generator) 
 
 ![Screenshot](./assets/images/screenshot.png)
 
 <br>
 
->## Installation
-
+## Installation
 
 1. Install [node.js](https://nodejs.org/en/) on your computer.
 2. Download [this](https://github.com/samuelfox1/README-Generator/archive/main.zip) project folder.
@@ -50,44 +41,32 @@
 4. Run `npm i` to install the dependencies.
 5. Finished!
 
-
 <br>
 
->## Usage
+## How to Use
 
 1. Run `node index.js` to launch the application.
 2. Follow the prompts.
-3. When finished, your new README.md file will create in the output folder
-4. Enjoy your new readme file!
-
+3. Enjoy your new README file!
 
 <br>
 
->## Contributing
+## Contributing
 
-* [Submit bugs and feature requests](https://github.com/samuel-fox1/README-Generator/issues)
-* [Review changes](https://github.com/samuel-fox1/README-Generator/pulls)
-* [Contributor Covenant Code of Conduct](./assets/utils/CodeOfConduct.md)
-
-<br>
-
->## Testing
-
-* 
+* [Submit bugs and feature requests](https://github.com/samuelfox1/readme-generator/issues)
+* [Review changes](https://github.com/samuelfox1/readme-generator/pulls)
 
 <br>
 
->## Questions
+## Questions
 
-| Name | Email  | Github  | LinkedIn |
-| :--: | :----: | :-----: | :------: |
-| Samuel Fox | samueljasonfox@gmail.com | [![Github](./assets/images/logo/github.png)](https://github.com/samuelfox1) | [![LinkedIn](./assets/images/logo/linkedin.png)](https://www.linkedin.com/in/samuel-fox-tacoma) |
+| Name | Email  | Github  | LinkedIn | Portfolio |
+| :--: | :----: | :-----: | :------: | :-------: |
+| Samuel Fox | samueljasonfox@gmail.com | [![Github](./assets/images/logo/github.png)](https://github.com/samuelfox1) | [![LinkedIn](./assets/images/logo/linkedin.png)](https://www.linkedin.com/in/samuel-fox-tacoma) | [samueljfox.com](https://samueljfox.com)
 
 <br>
 
->## License
-
-MIT License
+# [![license](https://img.shields.io/badge/License-MIT-blue)](#License)
 
 Copyright 2021 Samuel Fox
 
@@ -97,12 +76,7 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+
 <br>
 
-The images found in `assets/images/logo/` are trademarks of their respective companies and are under their terms and license.
-<br>
-
-2021
-<br>
-
->## [Top of page](#README-Generator)
+## [Top of page](#readme-generator)
