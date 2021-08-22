@@ -16,7 +16,7 @@ const mdTemplate = ({
 
 }) => (`# ${repoName}
 
->## Description 
+## Description 
 
 * ${description}
 
@@ -28,7 +28,7 @@ const mdTemplate = ({
 
 <br>
 
->## Table of Contents
+## Table of Contents
 
 * [Installation](#installation)
 * [How to Use](#how-to-use)
@@ -41,7 +41,7 @@ const mdTemplate = ({
 
 ${formattedShields}
 
->## Product
+## Product
 
 * [Check it out!](${deployedUrl}) 
 
@@ -49,7 +49,7 @@ ${formattedShields}
 
 <br>
 
->## Installation
+## Installation
 
 1.
 2.
@@ -59,7 +59,7 @@ ${formattedShields}
 
 <br>
 
->## How to Use
+## How to Use
 
 1.
 2.
@@ -69,14 +69,14 @@ ${formattedShields}
 
 <br>
 
->## Contributing
+## Contributing
 
 * [Submit bugs and feature requests](${getRepoUrl(repoName)}/issues)
 * [Review changes](${getRepoUrl(repoName)}/pulls)
 
 <br>
 
->## Testing
+## Testing
 
 1.
 2.
@@ -86,7 +86,7 @@ ${formattedShields}
 
 <br>
 
->## Questions
+## Questions
 
 | Name | Email  | Github  | LinkedIn | Portfolio |
 | :--: | :----: | :-----: | :------: | :-------: |
@@ -94,8 +94,8 @@ ${formattedShields}
 
 <br>
 
->## License
 ${licenseData}
+
 <br>
 
 ## [Top of page](#${repoName})`
