@@ -4,18 +4,19 @@
   "description": "user inputs data to auto create a README file",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/samuelfox1/ReadME-Generator.git"
+    "url": "git+https://github.com/sjfcodes/ReadME-Generator.git"
   },
   "author": "Samuel Fox",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/samuelfox1/ReadME-Generator/issues"
+    "url": "https://github.com/sjfcodes/ReadME-Generator/issues"
   },
-  "homepage": "https://github.com/samuelfox1/ReadME-Generator#readme",
+  "homepage": "https://github.com/sjfcodes/ReadME-Generator#readme",
   "dependencies": {
     "inquirer": "^7.3.3"
   }

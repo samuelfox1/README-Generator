@@ -1,25 +1,25 @@
 # readme-generator
 
-## Description 
+## Description
 
-* input information about your project to build a quick README file
+- input information about your project to build a quick README file
 
 <br>
 
-* AS A: developer
-* I WANT: to spend less time creating README files
-* SO THAT: I can spend more time creating PROJECTS!
+- AS A: developer
+- I WANT: to spend less time creating README files
+- SO THAT: I can spend more time creating PROJECTS!
 
 <br>
 
 ## Table of Contents
 
-* [Installation](#installation)
-* [How to Use](#how-to-use)
-* [Contributing](#contributing)
-* [Questions](#questions)
-* [Testing](#testing)
-* [License](#license)
+- [Installation](#installation)
+- [How to Use](#how-to-use)
+- [Contributing](#contributing)
+- [Questions](#questions)
+- [Testing](#testing)
+- [License](#license)
 
 <br>
 
@@ -27,7 +27,7 @@
 
 ## Product
 
-* [Check it out!](https://github.com/samuelfox1/readme-Generator) 
+- [Check it out!](https://github.com/sjfcodes/readme-Generator)
 
 ![Screenshot](./assets/images/screenshot.png)
 
@@ -36,7 +36,7 @@
 ## Installation
 
 1. Install [node.js](https://nodejs.org/en/) on your computer.
-2. Download [this](https://github.com/samuelfox1/README-Generator/archive/main.zip) project folder.
+2. Download [this](https://github.com/sjfcodes/README-Generator/archive/main.zip) project folder.
 3. Navigate to project folder in your terminal.
 4. Run `npm i` to install the dependencies.
 5. Finished!
@@ -53,16 +53,16 @@
 
 ## Contributing
 
-* [Submit bugs and feature requests](https://github.com/samuelfox1/readme-generator/issues)
-* [Review changes](https://github.com/samuelfox1/readme-generator/pulls)
+- [Submit bugs and feature requests](https://github.com/sjfcodes/readme-generator/issues)
+- [Review changes](https://github.com/sjfcodes/readme-generator/pulls)
 
 <br>
 
 ## Questions
 
-| Name | Email  | Github  | LinkedIn | Portfolio |
-| :--: | :----: | :-----: | :------: | :-------: |
-| Samuel Fox | samueljasonfox@gmail.com | [![Github](./assets/images/logo/github.png)](https://github.com/samuelfox1) | [![LinkedIn](./assets/images/logo/linkedin.png)](https://www.linkedin.com/in/samuel-fox-tacoma) | [samueljfox.com](https://samueljfox.com)
+|    Name    |          Email           |                                  Github                                   |                                            LinkedIn                                             |                Portfolio                 |
+| :--------: | :----------------------: | :-----------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: | :--------------------------------------: |
+| Samuel Fox | samueljasonfox@gmail.com | [![Github](./assets/images/logo/github.png)](https://github.com/sjfcodes) | [![LinkedIn](./assets/images/logo/linkedin.png)](https://www.linkedin.com/in/samuel-fox-tacoma) | [samueljfox.com](https://samueljfox.com) |
 
 <br>
 
@@ -75,7 +75,6 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
 
 <br>
 
